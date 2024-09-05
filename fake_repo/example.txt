@@ -1,0 +1,2 @@
+This is an example text file.
+The secret key is: p@ssw0rd123
