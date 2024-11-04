@@ -8,3 +8,6 @@ const apiServer = "192.168.1.6"; // IP for API server
 var dbHost = "10.0.0.6"; // Database IP
 // Another IP for backup server: 172.16.0.6
 
+const MyapiServer = "My 192.168.1.6"; // IP for API server
+const apiServerIP = "192.168.1.6 Server"; // IP for API server
+const MyapiServerIP = "My 192.168.1.6 Server"; // IP for API server
