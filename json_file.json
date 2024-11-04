@@ -1,0 +1,10 @@
+{
+  "pattern": "(a+)+",
+  "test_string": "aaaaaaaaaaaaaaaaaaaaaaaa!"
+  "database_host": "192.168.1.5",
+  "api_server": "10.0.0.5",
+  "comments": "// Backup server IP: 172.16.0.5"
+  // Backup server IP: 172.16.0.5
+}
+
+
