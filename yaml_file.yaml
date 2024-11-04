@@ -6,4 +6,4 @@ test_string: "aaaaaaaaaaaaaaaaaaaaaaaa!"
 database_host: "192.168.1.1"  # This is the database server IP
 app_host: "10.0.0.1"
 # Another server IP is 172.16.0.1
-
+app_host_2: "host 2 by ip: 10.0.0.1"
