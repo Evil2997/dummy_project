@@ -62,6 +62,11 @@ api_server = "192.168.1.4"  # IP for API server
 db_host = "10.0.0.4"  # Database IP
 # Backup server IP: 172.16.0.4
 
+db_host1 = "text 10.0.0.4"  # Database IP
+db_host2 = "s 10.0.0.4"  # Database IP
+db_host3 = "ss 10.0.0.4 123"  # Database IP
+
+
 # ======================================================================================================================
 
 ssh_key = "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAr7zVJ6aO0t3bD/yhC67hjN4dL5pk0Yg/5K4iM7LV67DdOi4zNySHFHbEvOiwVljYp9DjU9x8Ys14U8xzL3a5z7IR9QiKT9m3fjbRVGT3Zz/57f6mhU6xE9Y3kTbksb5y0PL2vL2OvAxlM93eH87uYyHgMeTHpKs0m2Gj8yJhR3Nh4n7F8ItIHr2sOQxnnXW9P+DLrmWaFFMyMkKzNzX/sBHvV test@host"
