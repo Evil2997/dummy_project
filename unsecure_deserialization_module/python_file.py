@@ -1,12 +1,5 @@
-import re
 import pickle
 
-
-# Потенциально уязвимое регулярное выражение для ReDoS
-pattern = r"(a+)+"
-re.match(pattern, "aaaaaaaaaaaaaaaaaaaaaaaa!")
-
-# ======================================================================================================================
 
 # Example 1: This should match both the old and new patterns
 # Vulnerable deserialization of untrusted data
@@ -41,15 +34,3 @@ def deserialize_user_data(user_data):
 insecure_function(b'')   # Expected to be caught by both patterns
 safe_function()          # Expected to be ignored by the new pattern
 deserialize_user_data(b'')  # Expected to be caught by the new pattern
-
-# ======================================================================================================================
-
-# TODO: example "to do" for scaning
-some_code = 'test code for "to do"'
-if "to do" in some_code:
-    a = 'my "to do" found"'
-
-# TODO: example commented code "to do" for scaning
-# some_commented_code = 'test commented code for "to do"'
-# if "to do" in some_commented_code:
-#   a = 'my "to do" found"'
