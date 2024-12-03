@@ -28,6 +28,9 @@ nested_calculation = calculated_value + 10
 final_result = f"Final value: {nested_calculation}"
 
 from smart_module.file1 import age
-from smart_module.file1 import username
 
 my_new_bio = f"My new Bio: {age}; {username}"
+
+from smart_module.file1 import username
+
+my_second_bio = f"My new Bio: {age}; {username}"
