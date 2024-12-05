@@ -2,7 +2,7 @@
 greeting = "Hello, World!"
 
 # Example of a variable using input
-username = input("Enter your username:")
+username__test_file = input("Enter your username:")
 
 # Example of nested variables
 first_name = "John"
@@ -17,8 +17,8 @@ city = "London"
 full_address = address_line1 + ", " + address_line2 + ", " + city
 
 # Example of a nested variable with input
-age = input("Enter your age:")
-user_info = f"{username}, {age} years old"
+age__test_file = input("Enter your age:")
+user_info = f"{username__test_file}, {age__test_file} years old"
 user_bio = f"Name: {full_name}, Address: {full_address}, Info: {user_info}"
 
 # Example of safe variables with calculations
@@ -29,7 +29,7 @@ final_result = f"Final value: {nested_calculation}"
 
 from smart_module.file1 import age
 
-my_new_bio = f"My new Bio: {age}; {username}"
+my_new_bio = f"My new Bio: {age}; {username__test_file}"
 
 from smart_module.file1 import username
 
