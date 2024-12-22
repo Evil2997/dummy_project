@@ -33,4 +33,4 @@ my_new_bio = f"My new Bio: {age}; {username__test_file}"
 
 from smart_module.file1 import username
 
-my_second_bio = f"My new Bio: {age}; {username}"
+my_second_bio = f"My new Bio second {age}; {username}"
