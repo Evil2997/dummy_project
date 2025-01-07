@@ -21,3 +21,4 @@ import path4.path3.path3_module1
 
 variable_with_big_import_line = path4.path3.path3_module1.variable_4
 
+variable_with_big_import_line_2 = path4.path3.path3_module1.variable_2
