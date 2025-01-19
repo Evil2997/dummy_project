@@ -17,6 +17,8 @@ nested_variable = percent_format_module.nested_variable_percent_2
 
 # nested_variable__NEW = f'my current_var is: {percent_format_module.nested_variable_percent_3}'
 
+EReq = percent_format_module.nested_variable
+
 
 import path4.path3.path3_module1
 import path4.path3.path2.path2_module1

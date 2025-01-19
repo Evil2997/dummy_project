@@ -18,3 +18,5 @@ nested_variable_percent_4 = "%s" % "Текст"
 
 # False
 nested_variable_percent_5 = "Значение: %s" % other_variable_percent_5
+
+nested_variable = "absolutely clean"
