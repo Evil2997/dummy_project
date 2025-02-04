@@ -26,14 +26,14 @@ import path4.path3.path2.path1.path1_module1
 import path4.path3.path2.path1.path1_module2
 
 
-a = path4.path3.path2.path2_module1.variable_3
-b = f"{path4.path3.path2.path2_module1.variable_3} + FIND_THIS"
-c = path4.path3.path2.path2_module1.variable_3 + "FIND_THIS"
-D1 = (path4.path3.path2.path2_module1.variable_3, "FIND_THIS")
-D2 = path4.path3.path2.path2_module1.variable_3, "FIND_THIS"
+variable__a = path4.path3.path2.path2_module1.variable_3
+variable__b = f"{path4.path3.path2.path2_module1.variable_3} + FIND_THIS"
+variable__c = path4.path3.path2.path2_module1.variable_3 + "FIND_THIS"
+variable__D1 = (path4.path3.path2.path2_module1.variable_3, "FIND_THIS")
+variable__D2 = path4.path3.path2.path2_module1.variable_3, "FIND_THIS"
 
-AA1 = path4.path3.path2.path1.path1_module1.variable_first
-AA2 = path4.path3.path2.path1.path1_module2.variable_sec
+variable__AA1 = path4.path3.path2.path1.path1_module1.variable_first
+variable__AA2 = path4.path3.path2.path1.path1_module2.variable_sec
 
 
 variable_with_big_import_line = path4.path3.path3_module1.variable_4
