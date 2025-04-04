@@ -31,6 +31,8 @@ def deserialize_user_data(user_data):
     return pickle.loads(user_data)
 
 # Execution for testing purposes
-insecure_function(b'')   # Expected to be caught by both patterns
+a = insecure_function(b'')   # Expected to be caught by both patterns
 safe_function()          # Expected to be ignored by the new pattern
 deserialize_user_data(b'')  # Expected to be caught by the new pattern
+
+b = a
